@@ -1,0 +1,1606 @@
+#root{
+	background-color: 
+	rgb(0, 32, 49);
+}
+
+main.mainForm{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: aqua;
+}
+
+div.contenedorForm{
+	width: 100%;
+	height: 100vh;
+}
+#video{
+	/* z-index: -1; */
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	min-height: 100vh;
+	object-fit: cover;
+}
+div.tarjetaMain{
+	background-size: cover;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 4px 4px 2px rgba(0,0,0,0.85);
+	border: none;
+	border-bottom: 1px solid rgb(100, 170, 222);
+	border-radius: 9px;
+	height: 40vh;
+	margin-top: 15px;
+}
+div.tamanioTexto{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+div.paginaNotFound{
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;	
+	background-color: rgb(18, 38, 75);
+}
+div.paginaNotFound button{
+	background-color: rgb(100, 170, 222);
+	border: none;
+	border-radius: 15px;
+	padding: 18px;
+	font-size: 28px;
+	color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+	transition: 1s all;
+}
+div.paginaNotFound button:hover{
+	background-color: white;
+	transition: 1s;
+	color:rgb(18, 38, 75);
+}
+
+.infoAncho{
+	width: 100%;
+}
+div.alturaYHeader{
+	min-height: 115vh;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	width: 100%;
+}
+div.footerContenedor{
+	height: 25vh;
+	width: 100%;
+	align-items: center;	
+}
+.fondoFooter{
+	background-size: cover;
+	background-position: 50% 40%;
+	background-repeat: no-repeat;
+}
+li.nav-item{
+	padding-right: 15px;
+}
+div.footer{
+	min-height: 35vh;
+	width: 100%;
+	margin-top: 20px;
+}
+div.linksContenedor{
+	height: 24vh;	
+}
+div.linksContenedor a{
+	text-decoration: none;
+}
+img.imagenesLogo{
+	height: 9vh;
+	margin-left: 10px;
+	cursor: pointer;
+}
+div.logosFooter{
+	justify-content: space-evenly;
+	display: flex;
+	width: 35%;
+}
+div.linksContenedor p{
+	font-size: 16px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-right: 15px;
+	color: white;
+}
+span.spanFooter{
+	height: 15vh;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	align-items: center;
+}
+div.contenedorInformacion img{
+	height: 100px;
+}
+div.contenedorMayor, div.contenedorInformacion{
+	width: 100%;
+}
+div.carouselFotos{
+	display: flex;
+	justify-content: center;
+	width: 60w;	
+}
+img.fotoCarru{
+	height: 50%;
+	width: 50%;
+	padding: 15px;
+}
+div.contenedorCarrusel{
+	width: 98vw;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+div.alturaImagenCarrusel{
+	height: 45vh;
+	width: 35vw;
+	display: flex;
+	background-size: cover;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	margin: 5px;
+	border-radius: 15px;
+}
+@media only screen and (max-width: 600px) {
+	div.alturaImagenCarrusel {
+	  height: 55vh;
+	  width: 50vw;
+	}
+}
+div.alturaImagenCarrusel:hover{
+	transition: all 0.2s linear;
+	transform: scale(1.02);
+}
+div.NavBar{
+	z-index: 1;
+	position: absolute;
+	background-color: transparent !important;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 50px;
+	margin-top: 20px;
+	
+}
+div.logoUsuarioOn{
+	height: 80px;
+	width: 80px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: initial;
+	border-radius: 100%;
+}
+
+
+
+div.NavBar a{
+	color: white !important;
+	padding-left: 10px;
+	padding-right: 18px;
+	text-decoration: none;
+	font-size: 19px;
+	
+}
+ul.mr-auto li.nav-item{
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+div.logosNavBar{
+	padding: 10px;
+	display: flex;
+	position: absolute;
+	top: -20px;
+	right: 5px;
+
+}
+div.logosNavBar p{
+	color: whgut
+}
+div.logosNavBar img{
+	border-radius: 150%;
+ 	height:	 80px;
+	width: 80px;
+}
+div.logosNavBar div.dropdown button{
+	background: none !important;
+	border: none !important;	
+}
+div.logosNavBar div.dropdown div.dropdown-menu{
+	background-color: rgb(0, 32, 49) !important;
+	transform: translate3d(-45px, 90px, 0px) !important;
+	text-align: center;
+	padding: 15px;	
+}
+div.logosNavBar div.dropdown button{
+	border: none !important;	
+}
+div.logosNavBar div.dropdown div.dropdown-menu{
+	font-size: 20px;	
+}
+.btn-check:focus+.btn-secondary, .btn-secondary:focus{
+	box-shadow: none !important;
+}
+div.logosNavBar div.dropdown div.dropdown-menu li{
+	margin-bottom: 15px;
+	padding: 1px;
+}
+/* div.logosNavBar div.dropdown div.dropdown-menu li a{
+	border-bottom: 1px solid rgba(12, 12, 12, 0.575);
+	border-radius: 2px;	
+} */
+div img.logoEmpresa{
+	height: 38vh;
+	opacity: 0.8 !important;
+}
+div.NavBarHeader{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	align-items: center;
+	margin-left: 10px;
+}
+h4.tituloPersona{
+	color: white;
+	text-shadow: 4px 2px 2px rgba(0,0,0,0.79);
+}
+span.sr-only{
+	display: none;
+}
+span.carousel-control-prev-icon, span.carousel-control-next-icon {
+	background-color: rgb(100, 170, 222);
+	border-radius: 12px;
+	margin: 2px;
+}
+span.carousel-control-prev-icon:hover, span.carousel-control-next-icon:hover{
+	background-color: rgb(0, 32, 49);
+}
+.botonHeader{
+	background-color: white;
+	color:rgb(18, 38, 75);
+	border: none;
+	padding: 10px;
+ 	border-radius: 10px;
+	cursor: pointer;
+	color: rgb(0, 0, 0);
+	transition: all 800ms !important;
+}
+.botonHeader:hover{
+	background-color: rgba(20, 53, 112, 0.671);
+	transition: 1s;
+	color:rgb(255, 255, 255);
+
+}
+.tituloCarousel{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+}
+.tituloCarouselH3{
+	border-radius: 7px;
+	padding: 8px;
+	background-color: rgba(0, 32, 49, 0.905);
+	text-shadow: 4px 4px 2px rgba(0,0,0,0.85);	
+	transition: all 800ms !important;
+	margin: 18px;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	font-size: 50PX;
+}
+h3.tituloCarouselH3:hover{
+	background-color: rgb(100, 170, 222);
+	text-shadow: none;
+	color: rgba(0, 0, 0, 0.626);
+}
+.tituloYBotonHeader {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 10vh;
+}
+.tituloYBotonHeader h2 {
+	color:rgb(100, 170, 222);
+	text-shadow: 2px 5px 7px rgba(0, 0, 0, 0.664);
+	padding: 18px;
+	font-size: 50px;
+	align-items: center;
+	margin-top: 18px;
+}
+.tituloYBotonHeader button{
+	width: 50%;
+	font-size: 25px;
+}
+
+div.logosFooter{
+	margin-left: 22px;
+}
+h5.imagenesCarrusel{
+	width: 100%;
+	height: 13%;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	justify-content: center;
+	background-color: rgba(173, 216, 230, 0.678);
+	display: flex;
+	text-align: center;
+	font-size: 1.8rem;
+	color: white;
+}
+@media only screen and (max-width: 551px) {
+	h5.imagenesCarrusel {
+	  min-height: 10vh;
+	  padding: 1px;
+	  align-items: center;
+	  justify-content: center;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.textoDeTarjeta{
+		width: 100%;
+	}.tarjeta{
+		min-height: 40vh;
+		padding: 8px;
+	}
+}
+@media only screen and (max-width: 1034px) {
+	.tarjeta{
+		min-height: 45vh;
+		padding: 8px;
+	}
+}
+@media only screen and (max-width: 840px){
+	.tarjeta{
+		min-height: 49vh;
+	}
+}
+@media only screen and (max-width: 802px){
+	.tarjeta{
+		min-height: 55vh;
+	}
+}
+@media only screen and (max-width: 648px){
+	.tarjeta{
+		min-height: 60vh;
+	}
+}
+@media only screen and (max-width: 575px){
+	.tarjeta{
+		min-height: 25vh;
+	}
+}
+.divContenedor{
+	width: 100%;
+	min-height: 100vh;
+}
+div.alturaYHeader h2{
+	font-size: 60px;
+	padding: 9px;
+	color: rgba(255, 255, 255, 0.781);
+	text-shadow: 5px 5px 3px rgba(0,0,0,0.71);
+}
+div.alturaYHeader h3{
+	padding: 15px;
+}
+div.row{
+	margin: 0!important;
+}
+
+/*    <----CIUDADES---->    */
+
+.contenedorMayor{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.grid-container{
+	width: 85vw;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: minmax(140px, auto);	
+}
+a.item div{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	transition: transform 0.3s ease-in-out;
+	margin: 5px;
+	color: white;
+	filter: opacity(0.85)	
+}
+a.segundaClase div{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	transition: transform 0.3s ease-in-out;
+	color: white;
+	filter: opacity(0.85)	
+}
+a.segundaClase, a.item{
+	margin: 5px;
+	text-decoration: none;
+}
+a.segundaClase:nth-child(2n-1){
+	grid-column-start: span 2;
+	grid-row-start: span 2 ;
+	
+}
+a.segundaClase:nth-child(2n){
+	grid-column-start: span 2;
+	grid-row-start: span 2 ;
+}
+a.segundaClase div:hover{
+	filter: opacity(1);
+}
+a.item div:hover{
+	filter: opacity(1);
+
+}
+a.item:nth-child(12n-11){
+	grid-column-start: span 2;
+}
+a.item:nth-child(12n-10){
+	grid-column-start: span 2;
+	grid-row-start: span 4;
+}
+a.item:nth-child(12n-9){
+	grid-column-start: span 2;
+	grid-row-start: span 3;
+}
+a.item:nth-child(12n-8){
+	grid-column-start: span 4;
+	grid-row-start: span 3;
+}
+a.item:nth-child(12n-7){
+	grid-column-start: span 2;
+	grid-row-start: span 3;
+}
+.item:nth-child(12n-6){
+	grid-column-start: span 2;
+	grid-row-start: span 2;
+}
+.item:nth-child(12n-5){
+	grid-column-start: span 2;
+	grid-row-start: span 3;
+}
+.item:nth-child(12n-4){
+	grid-column-start: span 2;
+	grid-row-start: span 3;
+}
+.item:nth-child(12n-3){
+	grid-column-start: span 2;
+	grid-row-start: span 2;
+}
+.item:nth-child(12n-2){
+	grid-column-start: span 2;
+	grid-row-start: span 2;
+}
+.item:nth-child(12n-1){
+	grid-column-start: span 2;
+}
+.item:nth-child(12n){
+	grid-column-start: span 4;
+	grid-row-start: span 2;
+}
+@media only screen and (max-width: 700px){
+	.grid-container{
+		grid-auto-rows: minmax(150px, auto);
+	}a.segundaClase{
+		margin: 4px;
+	} a.item{
+		margin: 4px;
+	}
+}
+@media only screen and (max-width: 600px){
+	.grid-container{
+		grid-auto-rows: minmax(110px, auto);
+		
+	}.a.segundaClase{
+		margin: 3px;
+	}a.item{
+		margin: 3px;
+	}
+}
+@media only screen and (max-width: 520px){
+	.grid-container{
+		grid-auto-rows: minmax(100px, auto);
+		
+	}a.segundaClase{
+		margin: 2px;
+	}a.item{
+		margin: 2px;
+	}
+}
+.fondoCities{
+	width: 100%;
+	height: 79.5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: initial;	
+}
+.cajainputCities{
+	margin-top: 25px;
+	margin-bottom: 10px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.inputCities{
+	font-size: 30px;
+	width: 50vw;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	background-color: white;
+	color: rgb(0, 32, 49);
+	border: none;
+	outline: none;
+}
+@media only screen and (max-width: 629px){
+	.inputCities{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 467px){
+	.inputCities{
+		font-size: 18px;
+	}
+}
+img.logoCambio{
+	margin-left: 50px;
+}
+div.paginaDeFiltro{
+	margin-top: 15px;
+	width: 83vw;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div.textoDeFiltro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+div.textoDeFiltro h1{
+	color: white;
+	text-align: center;
+	
+}
+
+
+/* PAGINA CITY */
+
+.fondoCiudad{
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+}
+div.logoPais{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 25vh;
+	
+}
+div.logoPais img{
+	height: 100px;
+	margin-right: 15px;
+}
+div.cargaDePaginas{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(0, 32, 49);
+}
+button.botonCiudad{
+	padding: 15px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	font-size:32px;
+	font-size:bold;
+	transition: 1s all ;
+	border-radius: 15px;
+	background-color:rgba(255, 255, 255, 0.796) ;
+}
+
+button.botonCiudad:hover{
+	transition: 1;
+	background-image: none !important;
+	background-color: rgba(0, 0, 0, 0.749);
+	color: white;
+}
+
+div.contenidoBoton{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	height: 21vh;
+}
+
+div.tarjetaCiudad{
+	height: 35vh;
+	width: 28vw;
+	background-color: rgba(255, 255, 255, 0.548);
+	border-radius: 15px;
+	color: black;
+}
+
+div.tarjetaCiudad img{
+	height: 5vh;
+}
+img.banderaLogo{
+	height: 15vh !important;
+}
+div.headerTarjeta{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+div.bodyTarjeta{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+div.informacionTarjetas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 15px;
+}
+div.tarjetaDeCiudad{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+img.imagenUnder{
+	height: 80%;
+	width: 60%;
+}
+@media only screen and (max-width: 800px){
+	img.imagenUnder{
+		height: 70%;
+		width: 50vw;
+	}
+}
+
+div.tituloCiudad h1{
+	font-size: 48px;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.534);
+	padding: 2px;
+}
+
+@media only screen and (max-width: 1133px){
+	div.tarjetaCiudad{
+		width: 50vw;
+	}
+}
+@media only screen and (max-width: 940px){
+	div.tarjetaCiudad{
+		width: 45vw;
+	}img.imagenUnder{
+		height: 70%;
+		width: 50vw;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	div.tarjetaCiudad{
+		width: 80vw;
+		height: 35vh;
+	}div.tituloCiudad h1{
+		font-size: 40px;
+	}img.imagenUnder{
+		height: 50%;
+		width: 80vw;
+	}
+}
+@media only screen and (max-width: 500px){
+	div.tituloCiudad h1{
+		font-size: 32px;
+	}
+}
+
+div.errorPage{
+	height: 65vh;
+	width: 48vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	padding: 5px;
+	flex-direction: column;
+	font-size:50px;
+	font-size:bold;
+}
+
+div.contenedorErrorPage{
+	width: 100%;
+	height:  80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media only screen and (max-width: 998px){
+	div.errorPage{
+		height: 75vh;
+		width: 60vw;
+	}
+}
+@media only screen and (max-width: 788px){
+	div.errorPage{
+		width: 70vw;
+	}
+}
+
+div.errorPage button{
+	margin-top: 18px;
+	padding: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	font-size:32px;
+	font-size:bold;
+	transition: 1s all ;
+	border-radius: 15px;
+	background-color:rgb(0, 32, 49);
+	color: white ;	
+}
+
+
+div.errorPage button:hover{
+	transition: 1;
+	background-image: none !important;
+	background-color: rgb(100, 170, 222);
+	color: rgb(0, 32, 49);
+}
+
+div.fondoDePaginaNotFound{
+	height: 50vh;
+	width: 50vw;
+	background-color: blue;
+}
+
+div.contenedorMayor{
+	min-height: 60vh;
+}
+
+
+/* <---- boton itinerario */
+ div.mainItinerario{
+	min-height: 70vh;
+	width: 100%;
+	padding: 15px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+div.contenedorItinerario{
+	min-height: 50vh;
+	width: 80%;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding: 10px;
+	background-image: linear-gradient(to right top, rgba(0, 0, 0, 0.609) , rgba(29, 104, 173, 0.65));
+	box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.75);
+	transition: 1s all;
+}
+div.contenedorItinerario:hover{
+	transition: 1s all;
+	box-shadow: 2px 2px 5px 2px rgba(50, 126, 197, 0.794);
+	-webkit-box-shadow: 2px 2px 5px 2px rgba(50, 126, 197, 0.794);
+	-moz-box-shadow: 2px 2px 5px 2px rgba(50, 126, 197, 0.794);
+}
+div.headerContenedorItinerario{
+	height: 60vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+div.imagenItinerario{
+	height: 100%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+div.informacionItinerario{
+	width: 68%;
+	height: 70%;
+	display: flex;
+	margin-top: 10px;
+	flex-direction: column;
+	align-items: center;
+}
+div.tituloItinerario{
+	margin-top: 5px;
+	margin-left: 5px;
+	text-align: center;
+	margin-bottom: 15px;
+	
+}
+div.tituloItinerario h4{
+	font-size: 18px;	
+	border-bottom: 1px solid rgba(255, 255, 255, 0.182) ;
+}
+div.tituloItinerario h2{
+	text-shadow: 1px 10px 10px rgba(0, 0, 0, 0.942);
+}
+
+div.imagenAutor{
+	height: 90px;
+	width: 90px;
+	border-radius: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 7px;
+}
+div.nombreYImagen{
+	display: flex;
+	align-items: center;
+}
+div.imagenYNombre{
+	width: 80%;
+	display: flex;
+	align-items: center;
+	color: white;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+div.imagenCorazon{
+	height: 45px;
+	width: 45px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+div.cajaCorazones{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;		
+}
+div.cajaCorazones h4{
+	padding: 2px;
+	margin-left: 2px;
+}
+div.imagenItinerarioPresentacion{
+	height: 95%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 9px;
+	margin: 5px;
+}
+div.botonItinerario{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+div.imagenUnderFondo{
+	max-height: 50vh;
+}
+div.iconosItinerario, div.horario, div.precio{
+	display: flex;	
+	padding: 2px;
+	align-items: center;	
+	align-content: center;
+}
+/* div.iconosItinerario{
+	justify-content: space-evenly;
+} */
+div.PrecioHorarioItinerario{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
+div.horario h6, div.precio h6{
+	padding: 3px;
+}
+div.idiomaItinerario{
+	display: flex;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+div.idiomaItinerario h6{
+	margin-left: 5px;
+}
+div.hashtagsItinerario{
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.745);
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+div.cajaBoton{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+button.botonItinerario{
+	padding: 10px;	
+	background-color: black;
+	border: none;
+	color: white;
+	border-radius: 7px;
+	font-weight: 700;
+	font-size: 22px;
+	width: 35%;
+	transition: 1s all;
+}
+button.botonItinerario:hover{
+	transition: 1s;
+	color: rgb(0, 0, 0);
+	background-color: white;
+	
+}
+div.precio img, div.horario img{
+	height: 32px;
+	margin-right: 5px;
+}
+div.precio img{
+	height: 22px;
+}
+
+
+@media only screen and (max-width: 1300px){
+	div.contenedorItinerario{
+		width: 85%;
+	}div.imagenItinerario{
+		width: 40%;
+	}div.tituloItinerario h4{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 1300px){
+	div.contenedorItinerario{
+		width: 85%;
+	}div.imagenItinerario{
+		width: 40%;
+	}
+}
+@media only screen and (max-width: 1100px){
+	div.contenedorItinerario{
+		width: 90%;
+	}div.imagenItinerario{
+		width: 43%;
+	}div.headerContenedorItinerario{
+		height: 70vh;
+	}div.PrecioHorarioItinerario{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 1000px){
+	div.contenedorItinerario{
+		width: 100%;
+	}
+	div.imagenItinerario{
+		width: 48%;
+	}div.PrecioHorarioItinerario{
+		width: 100%;
+	}div.headerContenedorItinerario{
+		height: 70vh;
+	}div.informacionItinerario{
+		height: 65%;
+	}
+}
+@media only screen and (max-width: 870px){
+	div.imagenYNombre{
+		width: 90%;
+	}div.botonItinerario{
+		padding: 15px;
+		width: 100%;
+	}div.precio img{
+		height: 28px;
+	}
+}
+@media only screen and (max-width: 810px){
+	div.precio img{
+		height: 25px;
+	}div.headerContenedorItinerario{
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 740px){
+	div.precio img{
+		height: 22px;
+	}
+}
+@media only screen and (max-width: 700px){
+	div.cajaBoton{
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+	div.cajaBoton button{
+		width: 50%;
+		padding: 15px;
+		font-size: 20px;
+	}
+	div.headerContenedorItinerario{
+		height: 100%;
+	}
+	div.mainItinerario{
+		min-height: 120vh;
+	}
+	div.imagenItinerario{
+		width: 95%;
+		height: 50vh;
+	}div.imagenItinerarioPresentacion{
+		height: 50vh;
+	}
+	div.imagenYNombre{
+		margin-top: 15px;
+		width: 100%;
+	}
+	div.hashtagsItinerario h6{
+		font-size: 15px;
+	}
+	div.informacionItinerario{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 480px){
+	div.informacionItinerario{
+		width: 100%;
+	}
+}
+div.cajaItinerarioNotFound{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+}
+div.imagenItinerarioNotFound{
+	height: 55vh;
+	width: 40vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+div.cajaBoton{
+	margin-top: 20px;
+}
+@media only screen and (max-width: 480px){
+	div.imagenItinerarioNotFound{
+		height: 55vh;
+		width: 60vw;
+	}
+}
+
+/* SignUp -----  */
+div.contenedorSignUp{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 130vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+	opacity: 0.9;
+}
+form.signUp{
+	position: relative;
+	top: 10px;
+	width: 80%;
+	/* height: 100vh; */
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 10px;
+	backdrop-filter: blur(25px);
+	border-top: 1px solid rgba(255, 255, 255, 0.115);
+	background: rgba(255, 255, 255, 0);
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+form.signUp div input, form.signUp select{
+	padding: 8px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+	border: none;
+	color: white;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 10px;
+	backdrop-filter: blur(50px);
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+	border-bottom: 1px solid rgb(181, 5, 187);
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+/* form.signUp select{
+	color: black;
+} */
+form.signUp h1{
+	color: white;
+	margin-bottom: 30px;
+}
+div.linkFormulario{
+	display: flex;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	margin-top: 25px;
+}
+div.linkFormulario a{
+	color: white;
+	margin-left: 8px;
+	transition: 0.5s all;
+}
+div.linkFormulario a:hover{
+	transition: 0.5s all;
+	color:rgb(255, 0, 234) ;
+}
+
+div.cajaInputs span{
+	color: rgb(255, 255, 255);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background: rgba(255, 0, 212, 0.808);
+	font-weight: bold
+
+}
+@media only screen and (max-width: 1400px){
+	form.signUp div input, form.signUp select{
+		width: 60%;
+	}div.cajaInputs span{
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 1100px){
+	form.signUp div input, form.signUp select{
+		width: 70%;
+	}div.cajaInputs span{
+		width: 60%;
+	}
+}
+@media only screen and (max-width: 900px){
+	form.signUp div input, form.signUp select{
+		width: 80%;
+	}div.cajaInputs span{
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 700px){
+	form.signUp div input, form.signUp select{
+		width: 90%;
+	}div.cajaInputs span{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 580px){
+	form.signUp div input, form.signUp select{
+		width: 95%;
+	}div.cajaInputs span{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 500px){
+	form.signUp div input, form.signUp select{
+		width: 100%;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+	}div.cajaInputs span{
+		width: 100%;
+		font-size: 12px;
+	}
+}
+div.cajaInputs, div.cajaInputs2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+
+}
+form.signUp div input::-webkit-input-placeholder { color: rgb(255, 255, 255);
+	text-align: center;
+} 
+form.signUp div input:focus::-webkit-input-placeholder{color:transparent;}
+option.seleccionPais, option.seleccionFoto{
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 10px;
+	backdrop-filter: blur(50px);
+	background: rgb(0, 32, 49);
+	text-align: center;
+	align-items: center;
+}
+span.inputEscondido{
+	background-color: transparent !important;
+	color: transparent !important;
+}
+button.botonFormulario{
+	font-weight: bold;
+	min-height: 41px;
+	width: 175px;
+	margin-top: 8px;
+	font-size: 17px;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+    align-items: center;
+    color: rgba(0, 0, 0, 0.54);
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+    padding: 0px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-family: Roboto, sans-serif;
+}
+div.botonesFormulario{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	display: flex;
+	align-items: center;
+	width: 50%;
+	align-items: center;
+	height: 18vh;
+	flex-direction: column;
+}
+div.botonesFormulario h4{
+	color: white;
+	margin-bottom: 4px;
+	margin-top: 2px;
+}
+button.botonGoogle{
+	border-radius: 5px !important;
+}
+div.cajaInputs2{
+	flex-direction: row;
+	width: 80%;
+	align-items: center;
+	justify-content: center;
+}
+div.imagenDelInput{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 42px;
+	width: 42px;
+	cursor: pointer;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	margin-left: 18px;
+}
+div.comentariosYActividades{
+	display: flex;
+	width: 100%;
+}
+div.actividadesCajaImagenes{
+	width: 50%;
+	margin-left: 15px;
+}
+div.fotoActividad{
+	text-align: center;
+	margin-top: 10px;
+	height: 75vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;	
+}
+div.carouselActividades a span{
+	background-color: rgba(255, 255, 255, 0);
+}
+div.carouselActividades  span:hover{
+	background-color: rgba(255, 255, 255, 0);
+}
+div.comentariosCaja{
+	margin-right: 15px;
+	margin-top: 10px;
+	height: 75vh;
+	width: 100%;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+div.tituloComentarios{
+	width: 100%;
+	margin-top: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10%;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+div.contenedorDeComentarios{
+	height: 70%;
+	width: 50%;
+	margin-bottom: 10px;
+}
+div.comentariosComponente{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+	width: 80%;
+	padding-right: 20px;
+	max-width: 80%;
+	height: 70%;
+	overflow-y: auto;
+}
+div.inputComentarios{
+	background-color: rgb(255, 255, 255);
+	height: 10%;
+	display: flex;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	
+}							
+div.inputComentarios input{
+	width: 80%;
+	border: none;
+	outline: none;
+}
+div.imagenInputComentarios{
+	height: 35px;
+	width: 35px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+div.fotoComentarios{
+	height: 60px;
+	width: 60px;
+	border-radius: 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div.cajaDeFotoDeComentarios{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+div.cajaDeFotoDeComentarios p{
+	margin: 0px;
+	margin-top: 15px;
+	margin-left: 8px;
+}
+p.comentarioDeUsuario, div.cajaDeModificarInput{
+	color: rgb(1, 21, 32);
+	margin-left: 50px;
+	background-color: rgba(255, 255, 255, 0.905);
+	border-radius: 15px;
+	padding: 3px;
+}
+/* div.inputParaModificar{
+
+} */
+div.fotoParaEditarYBorrar{
+ display: flex;
+ width: 95%;
+ justify-content: flex-end;
+ margin-bottom: 10px;
+} 
+div.cajaDeModificarInput{
+	display: flex;
+	width: 80%;
+	background-color: transparent;
+}
+div.cajaDeModificarInput input{
+	border-radius: 5px;
+	margin-right: 5px;
+	border: none;
+	outline: none;
+	width: 100%;
+}
+div.cajaDeModificarInput button{
+	border-radius: 5px;
+}
+div.comentarioTexto{
+	max-width: 80%;
+	min-height: 10%;
+}
+
+div.gifCargando{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+
+}
+@media only screen and (max-width: 810px){
+
+	div.comentariosYActividades{
+		display: flex;
+		flex-direction: column;
+	}div.contenedorDeComentarios, div.actividadesCajaImagenes{
+		width: 100%;
+		margin: 0;
+	}div.actividadesCajaImagenes{
+		order: -1;
+	}
+}
+h4.tituloDeActividades{
+	background-color: rgb(0, 32, 49);
+	padding: 5px;
+	border-radius: 10px;
+}
+.comentariosComponente::-webkit-scrollbar{
+	border-radius: 15px !important;
+	background-color: rgb(0, 32, 49) !important;
+}
+.comentariosComponente::-webkit-scrollbar-thumb{
+	background-color: rgba(255, 255, 255, 0.596);
+	border-radius: 15px;
+}
+
+.botonesDeComentarios{
+	border: none;
+	background-color: transparent;
+	padding: 3px;
+	border: 1px solid rgba(255, 255, 255, 0.226);
+	border-radius: 5px;
+	margin-left: 5px;
+	
+}
+div.FotoAelegirContenedor{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 60%;
+}
+div.fotosAelegir{
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	position: relative;
+	right: -20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+@media only screen and (max-width: 900px){
+	div.fotosAelegir{
+		right: 15px;
+	}
+}	
+@media only screen and (max-width: 700px){
+	div.FotoAelegirContenedor{
+		justify-content: flex-end;
+	}
+	div.fotosAelegir{
+		position: absolute;
+		left: 40px;
+	}
+}
+@media only screen and (max-width: 580px){
+	div.cajaInputs2{
+		justify-content: flex-end;
+	}
+}
+@media only screen and (max-width: 508px){
+	div.fotosAelegir{
+		left: 30px;
+	}
+}
+@media only screen and (max-width: 470px){
+	div.fotosAelegir{
+		left: 14px;
+	}
+}
+@media only screen and (max-width: 440px){
+	div.fotosAelegir{
+		left: 5px;
+	}
+}
+
+input.inputDeUsuario{
+	background-color: rgba(114, 236, 114, 0.993);
+	margin-left: 10px;
+	padding-left: 5px;
+	margin-bottom: 1.08rem;
+}
+p.comentarioDeUsuarioLogeado{
+	border-bottom: 3px solid rgba(234, 0, 255, 0.548);
+	padding-left: 10px;
+}
