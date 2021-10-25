@@ -18,14 +18,15 @@ en carpeta raiz y carpeta frontend
 
 Este proyecto fue realizado por las siguientes tecnologías
 
-* [React](https://reactjs.org/) - Librería de Javascript
+* [React Native](https://reactnative.dev/) - Framework para construir aplicaciones nativas.
+* [Expo](https://expo.dev/) - Framework y plataforma para aplicaciones universales hechas en React.
 * [Node.js](https://nodejs.org/en/) - Entorno de ejecución para JavaScript
 * [Express](https://expressjs.com/) - Librería de Node utilizada en la construccion de la API
 * [MongoDB](https://www.mongodb.com/) - Base de datos utilizada
 * [Redux](https://react-redux.js.org/) -  Utilizado para trabajar con un estado global
 * [Mongoose](https://mongoosejs.com/) - Modelado de objetos (Object Document Mapper (ODM))
 * [Passport](http://www.passportjs.org/) - Utilizada para la autentificación de usuarios
-* [Joi](https://www.npmjs.com/package/joi) - Usada para la validación de formularios
+* [Joi](https://www.npmjs.com/package/joi) - usada para la validación de formularios
 
 ---
 ## Expresiones de Gratitud 💗
