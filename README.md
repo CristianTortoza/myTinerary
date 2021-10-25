@@ -4,7 +4,7 @@ Una app desarrollada en cinco semanas, realizando dailies diarias, ya que fue un
 
 ## Empezamos! 🚀
 
-Se puede ver una breve explicación en youtube en el siguiente link: [MytineraryYoutube](https://www.youtube.com/watch?v=9pXT-lkylKc&t=174s)
+Se puede ver una breve explicación en youtube en el siguiente link: [MytineraryYoutube](https://www.youtube.com/watch?v=9pXT-lkylKc&t=1s)
 
 ### Instalación 🔧
 
